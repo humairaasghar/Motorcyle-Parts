@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    paddind:0;
+}
+
+body{
+   
+   background-color: #ff7200;
+}
+.navbar{
+    width:200px;
+    height:5px;
+   margin:auto;
+   padding:20;
+}
+.icon{
+    width:150px;
+    height:2px;
+    float:left;
+    
+}
+.logo{
+    margin-top: 2px;
+    margin-left: 10px;
+    color:red;
+    font-size:100;
+    font-family:arial;
+    padding-top:10px;
+    float:left;
+    
+    
+
+}
+.menu{
+    width:600px;
+    float:left;
+    height:90px;
+}
+ul{
+    float:left;
+    display:inline-flex;
+    justify-content:center;
+    align-item:center;
+
+}
+ul li{
+    list-style:none;
+    margin-left:80px;
+    margin-top:1px;
+    font-size:14px;
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(35, 35, 119);
+    font-family:arial;
+    font-weight:bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:rgba(1, 1, 29, 0.966);
+}
+.search{
+    width:300px;
+    float:left;
+    margin-left:900px;
+    
+}
+.srch{
+    font-family:'times news rome';
+    width:200px;
+    height:30px;
+    background:transparent;
+    border:1px solid #7700ffc9;
+    margin-top:0px;
+    color:#080808ee;
+    border-right:none;
+    font-size:10px;
+    float:left;
+    padding:0px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius:5px;
+}
+.btn{
+    width:100px;
+    height:30px;
+    background:blue;
+    border:3px solid blue;
+    margin-top:0px;
+    color:black;
+    font-size:20px;
+    border-bottom-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+}
+
+
+.content{
+    width:1300px; /*Width for the esjhfjdk*/
+    height:10px;
+    margin:5px;
+    color:black;
+    position:relative;
+}
+.content .par{
+    padding-left:0px;
+    padding-bottom:30px;
+    font-family:arial;
+    letter-spacing:1.2px;
+    line-height:30px;
+}
+.content h1{
+    font-family:'times news roman';
+    font-size:40px;
+    padding-left:0px;
+    margin-top:20%;
+    letter-spacing:1px;
+}
+.content .cn{
+    width:180px;
+    height:80px;
+    background:blue;
+    border:none;
+    margin-bottom:10px;
+    margin-left:20px;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+    transition: .4s ease;
+    c
+}
+.content .cn a{
+    text-decoration:none ;
+    color:red;
+    transition:.3s ease ;
+}
+.cn:hover{
+    background-color:#fff ;
+
+}
+.content span{
+    color:black;
+    font-size:40px;
+
+}
+.form{
+    width:300px;
+    height:390px;
+    background:red;
+    position:absolute;
+    top:-100px;
+    left:870px;
+    border-radius:10px;
+    padding:50px;
+}
+.form h2{
+    width:220px;
+    font-family:sans-serif;
+    text-align:center;
+    color:#ff7200;
+    font-size:22px;
+    background-color:#fff;
+    border-radius:10px;
+    margin:2px;
+    padding:8px;
+}
+.form input{
+    width:240px;
+    height:35px;
+    background:transparent;
+    border-bottom:1px solid #ff7200;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    color:yellowgreen;
+    font-size:15px;
+    letter-spacing:1px;
+    margin-top:30px;
+    font-family:sans-serif;
+
+}
+.form input:focus{
+    outline:none;
+}
+::placeholder{
+    color:#fff;
+    font-family:arial;
+
+}
+
+.btnn{
+    width:240px;
+    height:40px;
+    background:#ff7200;
+    border:none;
+    margin-top:30px;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+    color:#fff;
+    border-radius:10px;
+}
+.btnn:hover{
+    background:#fff;
+    color:#ff7200;
+   
+}
+.btnn a{
+    text-decoration: none;
+    color:blue;
+    font-weight:bold;
+
+}
+.form .link{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    padding-top:30px;
+    text-align:centert;
+
+}
+.form .link a{
+    text-decoration: none;
+    color:#ff7200;
+}
+.liw{
+    padding-top:15px;
+    padding-bottom:20px;
+    text-align:center;
+}
+
+  
+   
